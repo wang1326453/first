@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-table.min.js"></script>
+    <script type="text/javascript" src="../js/firstPage.js"></script>
+    <link href="../bootstrap/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-table.css" rel="stylesheet">
+    <link href="../css/firstPage.css" rel="stylesheet">
+    <link href="../css/icon.css" rel="stylesheet">
+</head>
+<body style="background-color: transparent !important; overflow: auto">
+    <div style="background-color: transparent !important;">
+        <!--一级-->
+        <div class="mole radiu">
+            <!--二级模块-->
+            <!--通知公告-->
+            <div class="mole-ch mole-l">
+                <!--head-->
+                <div class="head">
+                    通知公告
+                    <div class="more">
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                    </div>
+                </div>
+                <!--内容-->
+                <div style="height: 340px">
+                    <!--列表-->
+                    <div class="list_gg">
+                        <ul id="gonggao" class="gonggaoLi">
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!--常用应用-->
+            <div class="mole-ch mole-r">
+                <!--head-->
+                <div class="head">
+                    常用应用
+
+                    <!--按钮-->
+                    <div class="yingyong_btn_div">
+                        <div class="yingyong_btn" >
+
+                            <div id="app_aways" class="yingyong_btn1">我的常用</div>
+                            <div id="app_mine"  class="yingyong_btn2">我的应用</div>
+                        </div>
+
+                    </div>
+                    <div class="more">
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                    </div>
+
+                </div>
+                <!--内容-->
+                <div style="height: 340px">
+                    <div id="app_area" class="row cont_app">
+                            <div class="col-md-6 btn_app">
+                                <div class="app">市场监管业务综合管理系统</div>
+                            </div>
+                            <div class="col-md-6 btn_app">
+                                <div class="app">宁夏三品一械广告审查系统</div>
+                            </div>
+                            <div class="col-md-6 btn_app">
+                                <div class="app">宁夏行政审批与公共服务系统</div>
+                            </div>
+                            <div class="col-md-6 btn_app">
+                                <div class="app">市场监管业务综合管理系统</div>
+                            </div>
+                            <div class="col-md-6 btn_app">
+                                <div class="app">宁夏三品一械广告审查系统</div>
+                            </div>
+                            <div class="col-md-6 btn_app">
+                                <div class="app">宁夏行政审批与公共服务系统</div>
+                            </div>
+                            <div class="col-md-6 btn_app">
+                                <div class="app">宁夏行政审批与公共服务系统</div>
+                            </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mole">
+            <!--我的待办-->
+            <div class="mole-ch mole-l radiu">
+                <!--head-->
+                <div class="head">
+                    我的待办
+                    <div class="more">
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                    </div>
+                </div>
+                <!--内容-->
+                <div style="width: 100%">
+                    <!--搜索标题-->
+                    <div class="dabanHead">
+                        <div id="1" class="head1">市场主体</div>
+                        <div id="2" class="head2">食品经营</div>
+                        <div id="3" class="head2">食品生产</div>
+                        <div id="4" class="head2">特种设备</div>
+                        <div id="5" class="head2">双随机一公开</div>
+
+                    </div>
+                    <!--表格-->
+                    <div class="shichang_tab_div" >
+
+                            <div class="shichang_div">
+                                <table id="shichang" class="shichang_table"></table>
+                            </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--政策文件-->
+            <div class="mole-ch mole-r radiu">
+                <!--head-->
+                <div class="head">
+                    政策文件
+                    <div class="more">
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                    </div>
+                </div>
+                <!--内容-->
+                <div>
+                    <div class="zhengce_div">
+                        <!--表格-->
+                        <div class="zhengceTable_div">
+                            <table id="zhengce" class="zhengce_table"></table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mole" style="height: 470px">
+            <!--监管底数-->
+            <div class="mole-ch mole-l radiu">
+                <!--head-->
+                <div class="head">
+                    监管底数
+                    <!--三个点-->
+                    <div class="more">
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                    </div>
+                </div>
+                <!--内容-->
+                <div class="cont_jianguan">
+                    <div class="row jianguan_div">
+                        <div class="col-md-4 jianguan_div1">
+                            <div class="jianguan_div2 jianguanColor1">
+                                <!--图标-->
+                                <div class="flo flo1">
+                                    <div class="jianguan_icon_style jianguan_icon1">
+
+                                    </div>
+
+                                </div>
+                                <!--数字和内容-->
+                                <div class="flo flo2">
+                                    <div class="line_top">4031661</div>
+                                    <div class="line_bottom">企业数量</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 jianguan_div1">
+                            <div class="jianguan_div2 jianguanColor2">
+                                <!--图标-->
+                                <div class="flo flo1">
+                                    <div class="jianguan_icon_style jianguan_icon2">
+
+                                    </div>
+
+                                </div>
+                                <!--数字和内容-->
+                                <div class="flo flo2 ">
+                                    <div class="line_top">4031661</div>
+                                    <div class="line_bottom">企业数量</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 jianguan_div1">
+                            <div class="jianguan_div2 jianguanColor3">
+                                <!--图标-->
+                                <div class="flo flo1">
+                                    <div class="jianguan_icon_style jianguan_icon3">
+
+                                    </div>
+
+                                </div>
+                                <!--数字和内容-->
+                                <div class="flo flo2 ">
+                                    <div class="line_top">4031661</div>
+                                    <div class="line_bottom">食品生产企业</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 jianguan_div1">
+                            <div class="jianguan_div2 jianguanColor4">
+                                <!--图标-->
+                                <div class="flo flo1">
+                                    <div class="jianguan_icon_style jianguan_icon4">
+
+                                    </div>
+
+                                </div>
+                                <!--数字和内容-->
+                                <div class="flo flo2 ">
+                                    <div class="line_top">4031661</div>
+                                    <div class="line_bottom">企业数量</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--预测中心-->
+            <div class="mole-ch mole-r radiu">
+                <!--head-->
+                <div class="head">
+                    预警中心
+                    <div class="more">
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                        <div class="more_div"></div>
+                    </div>
+                </div>
+                <!--内容-->
+                <div class="count_yujing">
+                    <div class="row yujing_div">
+                        <div class="col-md-6 space_div">
+
+
+                            <!--内容-->
+                            <div class="yujing_div1 yujing_bg1">
+                                <!--右下角图标-->
+                                <div class="right_down_div bh_img_url1 right_down_color1">
+                                </div>
+                                <div class="yujing_head">
+                                    食品生产许可证
+                                </div>
+                                <div class="yujing_cont">
+                                    <div class="flo yujing_left">
+                                        <div class="yujing_num yujing_num_color1">
+                                            166685
+                                        </div>
+                                        <div class="yujing_txt">
+                                            已过期
+                                        </div>
+                                    </div>
+                                    <div class="flo yujing_right">
+                                        <ul class="yujing_li yujing_num_color1">
+                                            <li ><span class="firat_txt">30天过期</span><span class="second_txt">5</span></li>
+                                            <li><span class="firat_txt">60天过期</span><span class="second_txt">13</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 space_div">
+                            <div class="yujing_div1 yujing_bg2">
+                                <!--右下角图标-->
+                                <div class="bh_img_url2 right_down_div right_down_color2">
+                                </div>
+                                <div class="yujing_head">
+                                    食品经营许可证
+                                </div>
+                                <div class="yujing_cont">
+                                    <div class="flo yujing_left">
+                                        <div class="yujing_num yujing_num_color2">
+                                            166685
+                                        </div>
+                                        <div class="yujing_txt">
+                                            已过期
+                                        </div>
+                                    </div>
+                                    <div class="flo yujing_right">
+                                        <ul class="yujing_li yujing_num_color2">
+                                            <li><span class="firat_txt">30天过期</span><span class="second_txt">5</span></li>
+                                            <li><span class="firat_txt">60天过期</span><span class="second_txt">13</span></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 space_div">
+                            <div class="yujing_div1 yujing_bg3">
+                                <!--右下角图标-->
+                                <div class=" bh_img_url3 right_down_div right_down_color3">
+                                </div>
+
+                                <div class="yujing_head">
+                                    食品生产许可证
+                                </div>
+                                <div class="yujing_cont">
+                                    <div class="flo yujing_left">
+                                        <div class="yujing_num yujing_num_color3">
+                                            166685
+                                        </div>
+                                        <div class="yujing_txt">
+                                            已过期
+                                        </div>
+                                    </div>
+                                    <div class="flo yujing_right">
+                                        <ul class="yujing_li yujing_num_color3">
+                                            <li><span class="firat_txt">30天过期</span><span class="second_txt">5</span></li>
+                                            <li><span class="firat_txt">60天过期</span><span class="second_txt">13</span></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 space_div">
+                            <div class="yujing_div1 yujing_bg4">
+                                <!--右下角图标-->
+                                <div class="bh_img_url4 right_down_div right_down_color4">
+                                </div>
+
+                                <div class="yujing_head">
+                                    食品生产许可证
+                                </div>
+                                <div class="yujing_cont">
+                                    <div class="flo yujing_left">
+                                        <div class="yujing_num yujing_num_color4">
+                                            166685
+                                        </div>
+                                        <div class="yujing_txt">
+                                            已过期
+                                        </div>
+                                    </div>
+                                    <div class="flo yujing_right">
+                                        <ul class="yujing_li yujing_num_color4">
+                                            <li><span class="firat_txt">30天过期</span><span class="second_txt">5</span></li>
+                                            <li><span class="firat_txt">60天过期</span><span class="second_txt">13</span></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--一级-->
+        <div class="mole radiu" style="height: 470px">
+            <!--二级-->
+            <!--常用问题-->
+            <div class="head">
+                常用问题
+            </div>
+            <div class="cont_question">
+                <div class="flo question_div_left">
+                    <!--对话框-->
+                    <div class="talk">
+                        <!--服务方-->
+                        <div id="talk_info" class="talk_scroll">
+
+                            <div class="talk_div1">
+                                <!--头像-->
+                                <div class="kefu_img flo"></div>
+                                <!--文字-->
+                                <div class="talk_text kefu_text_radiu flo">请问有什么可以帮助您的请问有什么可以帮助您的请问有什么可以帮助您的</div>
+                            </div>
+                            <div class="talk_div1">
+                                <!--头像-->
+                                <div class="kefu_img flo"></div>
+                                <!--文字-->
+                                <div class="talk_text kefu_text_radiu flo">请问有什么可以帮助您的</div>
+                            </div>
+                            <!--我的回复-->
+                            <div class="talk_div2">
+                                <!--头像-->
+                                <div class="mine_img flo_r"></div>
+                                <!--文字-->
+                                <div class="talk_text mine_text_radiu flo_r">请问有什么可以帮助您的</div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="write_area">
+                        <div>
+                            <div>
+                                <input id="ques_input" type="text" placeholder="请输入您想咨询或办理的业务..."  maxlength="100">
+                                </input>
+                            </div>
+                            <div class="input_num"><text id="input_num1">0</text>/100</div>
+                        </div>
+                        <div class="question_send_bbtn"><button id="inout_que_btn" class="question_btn0 question_btn" disabled>发送</button></div>
+                    </div>
+                </div>
+                <!--常用问题列表-->
+                <div class="flo question_div_right">
+                    <div class="question_list_div">
+                        <div class="question_list_div1">
+                            <div class="que"><span>FIREFOX浏览器怎么移除组件</span><span class="flo_r">2021-09-26</span></div>
+                            <div class="ans"><text>操作步骤：1、在火狐浏览器的最上面鼠标点击，2、选择菜单栏的工具，再...鼠标点击，2、选择菜asdsadfsa单栏的工具</text></div>
+                        </div>
+                        <div class="question_list_div1">
+                            <div class="que"><span>FIREFOX浏览器怎么移除组件</span><span class="flo_r">2021-09-26</span></div>
+                            <div class="ans"><text>操作步骤：1、在火狐浏览器的最上面鼠标点击，2、选择菜单栏的工具，再...</text></div>
+                        </div>
+                        <div class="question_list_div1">
+                            <div class="que"><span>FIREFOX浏览器怎么移除组件</span><span class="flo_r">2021-09-26</span></div>
+                            <div class="ans"><text>操作步骤：1、在火狐浏览器的最上面鼠标点击，2、选择菜单栏的工具，再...</text></div>
+                        </div>
+                        <div class="question_list_div1">
+                            <div class="que"><span>FIREFOX浏览器怎么移除组件</span><span class="flo_r">2021-09-26</span></div>
+                            <div class="ans"><text>操作步骤：1、在火狐浏览器的最上面鼠标点击，2、选择菜单栏的工具，再...</text></div>
+                        </div>
+                    </div>
+                    <div style="width: 100%;position: relative;height: 80px">
+                        <div class="question_list_btn"><button class="question_btn_li">查看更多</button></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--常用下载-->
+        <div class="mole radiu" style="height: 345px">
+            <!--head-->
+            <div class="head">
+                常用下载
+                <div class="more">
+                    <div class="more_div"></div>
+                    <div class="more_div"></div>
+                    <div class="more_div"></div>
+                </div>
+            </div>
+            <!--内容-->
+            <div class="upd_div">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="updown">在线阅读PDF控件IWEBFDF</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="updown">签章控件</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="updown">打印控件JFSAFAASVFVCS</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="updown">海康威视普清控件</div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="updown">海康威视高清控件FAWSIWBFF</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="updown">高拍采集</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="updown">身份证取件</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="updown">自治区公安厅</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

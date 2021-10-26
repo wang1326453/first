@@ -1,0 +1,68 @@
+.icon-list1>i{
+    background-image: url("../image/shouye.png");
+
+}
+.icon-list2>i{
+    background-image: url("../image/bljd.png");
+
+}
+.icon-list3>i{
+    background-image: url("../image/wysq.png");
+}
+.icon-list4>i{
+    background-image: url("../image/tzgg.png");
+}
+.icon-list5>i{
+    background-image: url("../image/zzyj.png");
+}
+.icon-list6>i{
+    background-image: url("../image/sybz.png");
+}
+.icon-list7>i{
+    background-image: url("../image/yyzx.png");
+}
+/*变色后图标*/
+.icon-list1-ch>i{
+    background-image: url("../image/shouye-xz.png");
+}
+.icon-list2-ch>i{
+    background-image: url("../image/bljd-xz.png");
+}
+.icon-list3-ch>i{
+    background-image: url("../image/wysq-xz.png");
+}
+.icon-list4-ch>i{
+    background-image: url("../image/tzgg-xz.png");
+}
+.icon-list5-ch>i{
+    background-image: url("../image/zzyj-xz.png");
+}
+.icon-list6-ch>i{
+    background-image: url("../image/sybz-xz.png");
+}
+.icon-list7-ch>i{
+    background-image: url("../image/yyzx-xz.png");
+}
+
+/*监管底数图标*/
+.jianguan_icon1{
+
+    background: url("../image/bljd-xz.png") no-repeat;
+    background-size: 100%;
+}
+.jianguan_icon2{
+
+    background: url("../image/yyzx-nr-spjy.png") no-repeat;
+    background-size: 100%;
+}
+.jianguan_icon3 {
+
+    background: url("../image/kefu.png") no-repeat;
+    background-size: 100%;
+}
+.jianguan_icon4{
+
+    background: url("../image/tzgg-xz.png") no-repeat;
+    background-size: 100%;
+
+}
